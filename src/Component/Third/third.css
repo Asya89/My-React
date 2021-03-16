@@ -1,0 +1,9 @@
+.foot{
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+  }
+  .foot .div1 i{
+  padding-top: 5px;
+  margin: 5px;
+  }
