@@ -7,8 +7,8 @@ class Foot extends React.Component {
             <div className="foot">
                 <div className="div1">
                     <i className="fab fa-facebook-square"></i>
+                    <i className="fab fa-youtube-square"></i>
                     <i className="fas fa-envelope-square"></i>
-                    <i clasName="fab fa-youtube-square"></i>
                 </div>
                 <div className="div2">
                     <p>Copyright &copy 2021</p>

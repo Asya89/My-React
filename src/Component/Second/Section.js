@@ -1,25 +1,19 @@
 import React from 'react';
 import './second.css'
+import './Section-1/Section-1.css'
+import './Section-2/Section-2.css'
+import './Section-3/Section-3.css'
+import Sec1 from './Section-1/Section-1'
+import Sec2 from './Section-2/Section-2'
+import Sec3 from './Section-3/Section-3'
 
 class Sec extends React.Component {
     render() {
         return (
             <div className="sec">
-                <div className="section">
-                    <h1>COMMUNICATION</h1>
-                    <p>Communication is a key factor to a successful accomplishment of an outsourcing
-                    project. Our fast and flexible working style will
-                    match your deadlines. Our diversified and effective management
-                    tools will allow us to partner up on a very organized and disciplined basis
-                </p></div>
-                <div className="section">
-
-                    <div className="n1"><p>jobs.3D ART-Modeling / PBR[procedural] Texturing
-                    High Poly Zbrush sculpting
-                    3D Rendering- and Environment Design</p></div>
-                    <div className="n2"><p>modeling</p></div>
-                    <div className="n3"><p>my chanel</p></div>
-                </div>
+                <Sec1/>
+                <Sec2/>
+                <Sec3/>
             </div>
         )
     }

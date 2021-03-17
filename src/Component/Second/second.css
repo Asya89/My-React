@@ -1,16 +1,5 @@
-.sec{
-    height: 500px;
-    background-color:lightgray;
-  
-  }
+
   .section{
     display: block;
   }
-  .sec .n1,.n2,.n3{
-  overflow: hidden;
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-    margin: 20px;
-    display: inline-block;
-  }
+ 
