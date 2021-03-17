@@ -17,19 +17,21 @@
     text-decoration: none;
     font-size: 20px;
     color: black;
+    padding: 5px 10px;
+    border: 2px solid white;
   }
   .menu ul li:nth-child(3) a{
     border: 2px solid blue;
     padding: 5px 10px;
     border-radius: 18px;
+    
     color: blue;
   }
   .menu ul li a:hover{
     border: 2px solid blue;
-    padding: 5px 10px;
     border-radius: 18px;
     color: blue;
-  }
+  } 
   .text{
     background-color: gray;
     height: 300px;
