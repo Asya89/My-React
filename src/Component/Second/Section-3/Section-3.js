@@ -4,7 +4,7 @@ class Three extends React.Component {
     render() {
         return (
             <div className="three">
-                <div className="d cucak">
+                <div className="cucak">
                     <p>3D Art</p>
                     <ul>
                         <li>Modeling / PBR[procedural] Texturing</li>
@@ -13,8 +13,8 @@ class Three extends React.Component {
                     </ul>
                 </div>
 
-                <form action="/#" className="d forma">
-                    <h3>Contact me</h3>
+                <form action="/#" className="forma">
+                    <p>Contact me</p>
                     <label>Name</label><input type="text" /><br />
                     <label>Surename</label><input type="text" /><br />
                     <label>Email</label><input type="email" /><br />

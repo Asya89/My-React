@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Div from './Divs/Div'
 
-class Two extends React.Component {
+class Two extends Component {
     render() {
         return (
             <div className="two">
-                <div className="n1"><p>nkar</p></div>
-                <div className="n2"><p>nkar</p></div>
-                <div className="n3"><p>nkar</p></div>
-                <div className="n4"><p>nkar</p></div>
-                <div className="n5"><p>nkar</p></div>
-                <div className="n6"><p>nkar</p></div>
+                <Div
+                    paragraf="Hayk"
+                    nkar="img/1.png"
+                />
+                <Div
+                    paragraf="Asya"
+                    nkar="img/2.png"
+                />
             </div>
         )
     }
