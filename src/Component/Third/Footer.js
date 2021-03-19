@@ -11,7 +11,7 @@ class Foot extends React.Component {
                     <i className="fas fa-envelope-square"></i>
                 </div>
                 <div className="div2">
-                    <p>Copyright &copy 2021</p>
+                    <p>Copyright &copy; 2021.</p>
                 </div>
             </div>
         )
