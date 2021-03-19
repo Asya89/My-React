@@ -20,7 +20,7 @@
     padding: 5px 10px;
     border: 2px solid white;
   }
-  .menu ul li:nth-child(3) a{
+  .menu ul li:nth-child(4) a{
     border: 2px solid blue;
     padding: 5px 10px;
     border-radius: 18px;
@@ -32,16 +32,34 @@
     border-radius: 18px;
     color: blue;
   } 
-  .text{
-    background-color: gray;
+  .text1{
+    
     height: 300px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .text button{
+  .text1 img{
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
+  .text1 p{
+    
+    position: absolute;
+    top: 90px;
+    left: 310px;
+  }
+  .text1 h1{
+    position: absolute;
+    top: 110px;
+    left: 310px;
+  }
+  .text1 button{
+    position: absolute;
+    top: 180px;
+    left: 310px;
     border-radius: 10px;
     background-color: rgb(105, 105, 201);
     padding: 5px 7px;
