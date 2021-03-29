@@ -15,9 +15,22 @@ class Three extends React.Component {
 
                 <form action="/#" className="forma">
                     <p>Contact me</p>
-                    <label>Name</label><input type="text" /><br />
-                    <label>Surename</label><input type="text" /><br />
-                    <label>Email</label><input type="email" /><br />
+                    <table>
+                        <thead>
+                        <tr>
+                            <td><label>Name</label></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Surename</label></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><input type="email" /></td>
+                        </tr>
+                        </thead>
+                    </table>
                     <button>Send</button>
                 </form>
             </div>

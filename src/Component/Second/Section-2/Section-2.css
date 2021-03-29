@@ -1,19 +1,16 @@
-.two .n1, .n2, .n3, .n4, .n5, .n6{
 
-      width: 100px;
-      height: 100px;
-      background-color: bisque;
-      margin: 20px auto;
-      display: inline-block;
-}
 .two{
-  height: 400px;
+  width: 100%;
+
   display: grid;
-  grid-template-columns:  100px 100px 100px;
-  grid-template-rows:  100px 100px;
-  grid-gap: 10px;
+  grid-template-columns:  250px 250px 250px;
+  grid-template-rows:  250px 250px;
+  grid-gap: 30px;
+ 
+  justify-content: center;
 }
+
 .nkar img{
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
 }
