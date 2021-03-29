@@ -6,12 +6,22 @@ class Two extends Component {
         return (
             <div className="two">
                 <Div
-                    paragraf="Hayk"
                     nkar="img/1.png"
                 />
                 <Div
-                    paragraf="Asya"
                     nkar="img/2.png"
+                />
+                <Div
+                    nkar="img/3.jpg"
+                />
+                <Div
+                    nkar="img/5.jpg"
+                />
+                <Div
+                    nkar="img/4.jpg"
+                />
+                <Div
+                    nkar="img/6.jpg"
                 />
             </div>
         )
