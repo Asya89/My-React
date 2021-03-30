@@ -23,7 +23,7 @@ class Text extends React.Component {
                     <img src={Nkar} alt="nkar" />
                     <p>Hello I`m Karen Petrosyan</p>
                     <h1>{this.state.text}</h1>
-                    <button onClick={this.hendelClick()}>see my work</button>
+                    <button onClick={this.hendelClick}>see my work</button>
                 </div>
             </div>
         )
